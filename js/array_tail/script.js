@@ -21,7 +21,7 @@ elBtnTail.addEventListener("click", function () {
         }
         console.log("reply " + reply);
         for (let i = 1; i <= printElemnts; i++) {
-            reply.innerHTML += ` ${arrayTail[elements - i]}`
+            reply.innerHTML += ` ${arrayTail[elements - i] + ", "}`
         }
     } else {
         reply.innerHTML = "Attenzione, il numero di elementi da stampare non può superare il numero di elementi generati"
