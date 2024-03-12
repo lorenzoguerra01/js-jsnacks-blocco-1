@@ -37,6 +37,18 @@ a {
     display: inline-block;
     padding: 6px 12px;
 }
+.ms_screen {
+    height: 100vh;
+    background-color:maroon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ms_card {
+    height: 80vh !important;
+    width: 80%;
+    overflow: auto;
+}
 
 /* flex utility  */
 /* media query  */
